@@ -1,0 +1,23 @@
+/* I. Header */
+
+#mainHeader {position: fixed; background: #2aabd2;}
+
+/**/
+#mainHeader div.row {height: 95px;}
+
+/* Логотип */
+#mainHeader h1 { background-image: url("img/logo.png"); background-repeat: no-repeat; background-position: center; height: 22px; width: 64px; overflow: hidden; line-height: 999px;}
+#mainHeader h1:hover {background-image: url("img/logo-dark.png")}
+
+
+/* Фон мальчика */
+#boy { height: 660px; background-image: url("img/01.jpg"); background-repeat: no-repeat; }
+@media (min-width:1140px)  {
+    #boy {background-position: center; background-size: 100%;}
+}
+/* Доработать позицию мальчика */
+
+
+
+
+/* End Header */
